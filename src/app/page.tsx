@@ -1,5 +1,6 @@
 import AccountsCard from "./components/AccountsCard";
 import BudgetCard from "./components/BudgetCard";
+import NetWorthCard from "./components/NetWorthCard";
 import SpendingCard from "./components/SpendingCard";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
         <BudgetCard />
         <SpendingCard />
         <AccountsCard />
+        <NetWorthCard />
       </div>
     </main>
   )
