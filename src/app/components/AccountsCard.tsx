@@ -24,7 +24,7 @@ export default function AccountsCard() {
     let personalLoanBalance = 1000000;
 
     return (
-        <Card className="max-w-md mx-auto" decoration="top" decorationColor="indigo">
+        <Card className="max-w-md mx-auto m-1" decoration="top" decorationColor="teal">
             <Title>Accounts</Title>
             <Subtitle className="mt-3">Cash</Subtitle>
             <Table>
