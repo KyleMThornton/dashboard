@@ -35,7 +35,7 @@ export default function SpendingCard() {
     const [value, setValue] = useState(null);
 
     return (
-        <Card className="max-w-md mx-auto" decoration="top" decorationColor="indigo">
+        <Card className="max-w-md mx-auto m-1 mt-3" decoration="top" decorationColor="teal">
             <Title>Spending</Title>
             <LineChart
                 className="h-72 mt-4"
