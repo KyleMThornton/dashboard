@@ -23,7 +23,7 @@ const netWorthData = [
 
 export default function NetWorthCard() {
     return (
-        <Card className="max-w-md mx-auto" decoration="top" decorationColor="indigo">
+        <Card className="max-w-md mx-auto m-1" decoration="top" decorationColor="teal">
             <Title>Net Worth</Title>
             <Text className="mt-3">Net Worth</Text>
             <LineChart
