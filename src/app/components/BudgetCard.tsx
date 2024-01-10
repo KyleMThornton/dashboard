@@ -7,7 +7,7 @@ export default function BudgetCard() {
     let expensesActual = 7700;
 
     return (
-        <Card className="max-w-md mx-auto" decoration="top" decorationColor="indigo">
+        <Card className="max-w-md mx-auto m-1" decoration="top" decorationColor="teal">
             <Title>Budget</Title>
             <Text className="mt-3">Income</Text>
             <Flex className="items-end">
